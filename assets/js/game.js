@@ -310,9 +310,9 @@ function pause(){
 	cursors.left._enabled = false;
 	cursors.right._enabled = false;
 	dropEvent.pause();
-	for(i=0;i<stars._hash.length;i++){
-		stars._hash[i].body.enable = false;
-	}
+	// for(i=0;i<stars._hash.length;i++){
+	// 	stars._hash[i].body.enable = false;
+	// }
 
 }
 
@@ -322,9 +322,9 @@ function unpause(){
 	cursors.left._enabled = true;
 	cursors.right._enabled = true;
 	dropEvent.resume();
-	for(i=0;i<stars._hash.length;i++){
-		stars._hash[i].body.enable = true;
-	}
+	// for(i=0;i<stars._hash.length;i++){
+	// 	stars._hash[i].body.enable = true;
+	// }
 }
 
 function computeRanking(){
